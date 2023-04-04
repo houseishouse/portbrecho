@@ -63,5 +63,17 @@
 	<footer>
 		<p>Meu Brechó &copy; 2023</p>
 	</footer>
+	<script>
+    const links = document.querySelectorAll('nav a');
+    links.forEach(link => {
+        link.addEventListener('click', (event) => {
+            event.preventDefault();
+            const section = document.querySelector(event.target.hash);
+            section.scrollIntoView({
+                behavior: 'smooth'
+            });
+        });
+    });
+</script>
 </body>
 </html>

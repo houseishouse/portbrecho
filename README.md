@@ -1,1 +1,1 @@
-https://houseishouse.github.io/portbrecho/index.html
+https://houseishouse.github.io/portbrecho/

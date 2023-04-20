@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="logo.ico" type="image/x-icon">
+    <title>Loja</title>
+    <style>
+      :root {
+        --dark-brown: #382e1c;
+        --light-brown: #b7a986;
+        --cream: #f8f6f1;
+        --orange: #d9a461;
+        --white: #ffffff;
+      }
+      header {
+        background-color: var(--dark-brown);
+        color: var(--cream);
+        padding: 20px;
+      }
+
+      h1 {
+        margin: 0;
+      }
+
+      nav ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        text-align: center;
+      }
+
+      nav li {
+        display: inline-block;
+        margin-right: 10px;
+        border: 1px solid transparent;
+        padding: 10px;
+      }
+
+      nav li:hover {
+        border: 1px solid var(--light-brown);
+      }
+
+      nav a {
+        color: var(--cream);
+        text-decoration: none;
+        display: block;
+        font-size: 18px;
+        padding: 5px;
+      }
+
+      nav a:hover {
+        color: var(--orange);
+      }
+
+      main {
+        padding: 20px;
+      }
+
+      h2 {
+        font-size: 36px;
+      }
+
+      .samples {
+        display: flex;
+        flex-wrap: wrap;
+      }
+
+      .sample-item {
+        flex: 1;
+        margin: 10px;
+        text-align: center;
+        background-color: var(--cream);
+        padding: 10px;
+        border-radius: 5px;
+      }
+
+      .sample-item img {
+        max-width: 100%;
+        height: auto;
+      }
+
+      .sample-item h3 {
+        margin-top: 10px;
+        font-size: 24px;
+      }
+
+      .sample-item p {
+        font-size: 18px;
+      }
+
+      .sample-item button {
+        display: block;
+        margin: 10px auto;
+        padding: 10px;
+        font-size: 18px;
+        background-color: var(--light-brown);
+        color: var(--dark-brown);
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+
+      .sample-item button:hover {
+        background-color: var(--orange);
+        color: var(--cream);
+        border: 1px solid var(--dark-brown);
+      }
+
+      footer {
+        background-color: var(--dark-brown);
+        color: var(--cream);
+        padding: 20px;
+        text-align: center;
+      }
+
+      footer p {
+        margin: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+        <div style="display: flex; justify-content: center; align-items: center;">
+			<img src="RENEW.png" alt="Descrição da imagem" style="width: 100px; height: auto; margin-right: 20px;">
+		  </div>
+      <h1></h1>
+      <nav>
+        <ul>
+          <li><a href="brecho.html">Início</a></li>
+          <li><a href="loja.html">Masculino</a></li>
+          <li><a href="#">Feminino</a></li>
+          <li><a href="sobrenos.html">Sobre</a></li>
+          <li><a href="contato.html">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+    
+    <main>
+      <h2>Feminino</h2>
+      <section class="samples">
+        <div class="sample-item">
+          <img src="https://img.ltwebstatic.com/images3_pi/2022/01/10/1641796709c89f86792ba61c6f879dea3b613dcb81.webp" alt="Sample Item 1">
+          <h3>Vestido Floral</h3>
+          <p>Tamanho P</p>
+          <p>R$ 119,90</p>
+          <button>Comprar</button>
+        </div>
+        <div class="sample-item">
+          <img src="https://img.ltwebstatic.com/images3_pi/2022/09/15/1663212148c156533309001195edcde639024afb58.webp" alt="Sample Item 2">
+          <h3>Saia de Couro</h3>
+          <p>Tamanho P</p>
+          <p>R$ 19,99</p>
+          <button>Comprar</button>
+        </div>
+        <div class="sample-item">
+          <img src="https://img.ltwebstatic.com/gspCenter/goodsImage/2023/2/25/9778706973_1035417/E920BB690099585C25ADC8B70E835FA7.jpg" alt="Sample Item 3">
+          <h3>Calça Jeans</h3>
+          <p>Tamanho 36</p>
+          <p>R$ 39,99</p>
+          <button>Comprar</button>
+        </div>
+        <div class="sample-item">
+          <img src="https://img.ltwebstatic.com/gspCenter/goodsImage/2023/2/28/6711334809_1048401/088EE973F7A6BBE21E80CA63F269160B.jpg" alt="Sample Item 4">
+          <h3>Bota de Couro</h3>
+          <p>Tamanho 36</p>
+          <p>R$ 59,99</p>
+          <button>Comprar</button>
+        </div>
+      </section>
+    </main>
+    
+    
+    <footer>
+      <p>&copy; 2023 Renew. Todos os direitos reservados.</p>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="shortcut icon" href="logo.ico" type="image/x-icon">
+	<title>Renew</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+		/* Estilos gerais */
+		* {
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+			font-family: Arial, sans-serif;
+		}
+		
+		body {
+			background-color: #3F4F0E;
+		}
+		
+		/* Estilos do cabeçalho */
+		header {
+			background-color: #3F4F0E;
+			color: #FFFFFF;
+			padding: 20px;
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+		}
+		
+		header h1 {
+			font-size: 36px;
+			margin-right: 50px;
+		}
+		
+		header nav ul {
+			list-style: none;
+			display: flex;
+		}
+		
+		header nav li {
+			margin: 0 10px;
+		}
+		
+		header nav a {
+			color: #FFFFFF;
+			text-decoration: none;
+			font-size: 20px;
+			padding: 5px 10px;
+			border-radius: 5px;
+			transition: all 0.2s;
+		}
+		
+		header nav a:hover {
+			background-color: #FFFFFF;
+			color: #333333;
+		}
+		
+		
+		/* Estilos do conteúdo */
+		.content {
+			padding: 50px;
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-between;
+		}
+		
+		.content h2 {
+			font-size: 36px;
+			margin-bottom: 30px;
+		}
+		
+		.content p {
+			font-size: 18px;
+			line-height: 1.5;
+			margin-bottom: 30px;
+		}
+		
+		.content .button {
+			background-color: #333333;
+			color: #FFFFFF;
+			padding: 10px 20px;
+			border-radius: 5px;
+			text-decoration: none;
+			font-size: 20px;
+			transition: all 0.2s;
+		}
+		
+		.content .button:hover {
+			background-color: #FFFFFF;
+			color: #333333;
+		}
+		
+		/* Estilos do rodapé */
+		footer {
+			background-color: #333333;
+			color: #FFFFFF;
+			padding: 20px;
+			text-align: center;
+			font-size: 16px;
+			margin-top: 50px;
+		}
+		
+		footer p {
+			margin: 0;
+		}
+		
+		/* Estilos do vídeo de fundo */
+		#bg-video {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100%;
+        height: auto;
+        }
+
+
+	</style>
+</head>
+<body>
+	<header>
+		<h1 class="logo">RENEW CLOTHING</h1>
+		<div style="display: flex; justify-content: center; align-items: center;">
+			<img src="RENEW.png" alt="Descrição da imagem" style="width: 100px; height: auto; margin-right: 20px;">
+		  </div>		  
+		<nav>
+		  <ul>
+			<li><a href="loja.html">Loja</a></li>
+			<li><a href="sobrenos.html">Sobre</a></li>
+			<li><a href="contato.html">Contato</a></li>
+		  </ul>
+		</nav>
+	  </header>
+	  
+	
+	<div class="video-container">
+		<video autoplay muted loop id="bg-video">
+			<source src="videofundo.mp4" type="video/mp4">
+			Desculpe, seu navegador não suporta vídeos HTML5.
+		</video>
+	</div>
+	
+
+<div class="content">
+	<h2>Nossos produtos</h2>
+	<p>Nós somos um brechó online que busca oferecer roupas e acessórios em bom estado a preços acessíveis. Aqui você encontra desde peças vintage até itens mais modernos e descolados. Comprando em nosso brechó, você ajuda a reduzir o desperdício de materiais e a contribuir para um mundo mais sustentável.
+
+</p>
+	<a href="loja.html" class="button">Ver produtos</a>
+</div>
+
+<footer>
+	<p>&copy; 2023 Renew. Todos os direitos reservados.</p>
+</footer>
+</body>
+</html>   
